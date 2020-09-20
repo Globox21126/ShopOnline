@@ -1,0 +1,40 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "GTX 1060",
+        "brand": "Nvidia",
+        "price": "100$"
+      },
+      {
+          "id": 2,
+          "name": "GTX 1060Ti",
+          "brand": "Nvidia",
+          "price": "130$"
+      },
+      {
+        "id": 3,
+        "name": "GTX 1070",
+        "brand": "Nvidia",
+        "price": "160$"
+      },
+      {
+        "id": 4,
+        "name": "GTX 1070Ti",
+        "brand": "Nvidia",
+        "price": "200$"
+      },
+      {
+        "id": 5,
+        "name": "GTX 1080",
+        "brand": "Nvidia",
+        "price": "300$"
+      },
+      {
+        "id": 6,
+        "name": "GTX 1080ti",
+        "brand": "Nvidia",
+        "price": "370$"
+      }
+    ]
+  }

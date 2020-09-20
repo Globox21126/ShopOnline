@@ -1,1 +1,15 @@
+/* Header styling */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_right {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
