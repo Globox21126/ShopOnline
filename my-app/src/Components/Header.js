@@ -8,7 +8,7 @@ function Header() {
             </div>
             <div className="header_right">
                 <p>Produkty</p>
-                <a href="www.google.pl">Koszyk</a>
+                <button>Koszyk</button>
             </div>
         </section>
     )

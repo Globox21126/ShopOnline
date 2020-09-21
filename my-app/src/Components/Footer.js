@@ -5,12 +5,12 @@ function Footer() {
         <section className="footer">
             <div>
                 <h3>Online Shop</h3>
-                <a href="www.google.pl">Contact us!</a>
+                <button></button>
             </div>
             <div>
                 Find us: 
-                <a>Facebook</a>
-                <a>Instagram</a>
+                <button>FB</button>
+                <button>IG</button>
             </div>
         </section>
     )
