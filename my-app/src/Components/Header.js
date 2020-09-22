@@ -2,11 +2,11 @@ import React from 'react'
 
 function Header() {
     return (
-        <section className="header">
-            <div className="header_left">
+        <section className="header wrapper">
+            <div>
                 <h3>Logo</h3>
             </div>
-            <div className="header_right">
+            <div>
                 <p>Produkty</p>
                 <button>Koszyk</button>
             </div>
