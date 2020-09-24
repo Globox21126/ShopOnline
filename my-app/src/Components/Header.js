@@ -1,14 +1,17 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (
         <section className="header wrapper">
             <div>
-                <h3>Logo</h3>
+                <h3>ShopOnline</h3>
             </div>
             <div>
-                <p>Produkty</p>
-                <button>Koszyk</button>
+                <a>Products</a>
+                <a>About us</a>
+                <FontAwesomeIcon size="lg" icon={faShoppingCart} />
             </div>
         </section>
     )
