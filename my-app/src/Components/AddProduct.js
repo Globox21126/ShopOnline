@@ -21,12 +21,12 @@ function AddProduct({addOneProduct}) {
 
         e.preventDefault();
 
-        const newProduct = {
+        const addItem = {
             name: name,
             brand: brand,
             price: price
         }
-        addOneProduct(newProduct);
+        addOneProduct(addItem);
     }
 
 
