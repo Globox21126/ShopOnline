@@ -76,45 +76,75 @@
   "bought": [
     {
       "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
+      "name": "GTX 1060",
+      "price": "100$",
       "id": 1
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
+      "name": "GTX 1060",
+      "price": "100$",
       "id": 2
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
+      "name": "GTX 1060Ti",
+      "price": "130$",
       "id": 3
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
+      "name": "GTX 1060Ti",
+      "price": "130$",
       "id": 4
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
+      "name": "GTX 1070",
+      "price": "160$",
       "id": 5
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
+      "name": "GTX 1070",
+      "price": "160$",
       "id": 6
+    },
+    {
+      "brand": "AMD",
+      "name": "Ryzen",
+      "price": "400$",
+      "id": 7
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1080",
+      "price": "300$",
+      "id": 8
     },
     {
       "brand": "Nvidia",
       "name": "GTX 1080Ti",
       "price": "370$",
-      "id": 7
+      "id": 9
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1080Ti",
+      "price": "370$",
+      "id": 10
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1070",
+      "price": "160$",
+      "id": 11
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1080Ti",
+      "price": "370$",
+      "id": 12
     }
   ]
 }

@@ -36,7 +36,7 @@ function AddProduct({addOneProduct}) {
             <form onSubmit={handleSubmit}>
                 <input onChange={changeBrand} value={brand} name="brand" placeholder="Producent"/>
                 <input onChange={changeName} value={name} name="name" placeholder="Nazwa"/>
-                <input onChange={changePrice} value={price} name="price" placeholder="Cena"/>
+                <input onChange={changePrice} value={price} name="price" placeholder="Cena + waluta"/>
                 <button>Dodaj</button>
             </form>
         </div>
