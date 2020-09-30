@@ -1,40 +1,96 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "GTX 1060",
-        "brand": "Nvidia",
-        "price": "100$"
-      },
-      {
-          "id": 2,
-          "name": "GTX 1060Ti",
-          "brand": "Nvidia",
-          "price": "130$"
-      },
-      {
-        "id": 3,
-        "name": "GTX 1070",
-        "brand": "Nvidia",
-        "price": "160$"
-      },
-      {
-        "id": 4,
-        "name": "GTX 1070Ti",
-        "brand": "Nvidia",
-        "price": "200$"
-      },
-      {
-        "id": 5,
-        "name": "GTX 1080",
-        "brand": "Nvidia",
-        "price": "300$"
-      },
-      {
-        "id": 6,
-        "name": "GTX 1080ti",
-        "brand": "Nvidia",
-        "price": "370$"
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "name": "GTX 1060",
+      "brand": "Nvidia",
+      "price": "100"
+    },
+    {
+      "id": 2,
+      "name": "GTX 1060Ti",
+      "brand": "Nvidia",
+      "price": "130"
+    },
+    {
+      "id": 3,
+      "name": "GTX 1070",
+      "brand": "Nvidia",
+      "price": "160"
+    },
+    {
+      "id": 4,
+      "name": "GTX 1070Ti",
+      "brand": "Nvidia",
+      "price": "200"
+    },
+    {
+      "id": 5,
+      "name": "GTX 1080",
+      "brand": "Nvidia",
+      "price": "300"
+    },
+    {
+      "id": 6,
+      "name": "GTX 1080Ti",
+      "brand": "Nvidia",
+      "price": "370"
+    },
+    {
+      "name": "RTX 2060",
+      "brand": "Nvidia",
+      "price": "250",
+      "id": 7
+    },
+    {
+      "name": "RTX 2060 Super",
+      "brand": "Nvidia",
+      "price": "285",
+      "id": 8
+    },
+    {
+      "name": "RTX 2070 ",
+      "brand": "Nvidia",
+      "price": "300",
+      "id": 9
+    },
+    {
+      "name": "Ryzen",
+      "brand": "AMD",
+      "price": "400",
+      "id": 10
+    },
+    {
+      "name": "RTX 3080",
+      "brand": "Nvidia",
+      "price": "700",
+      "id": 11
+    },
+    {
+      "name": "Radeon RX 5700 XT GAMING",
+      "brand": "MSI",
+      "price": "450",
+      "id": 12
+    }
+  ],
+  "bought": [
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1060",
+      "price": "100",
+      "id": 12
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1060Ti",
+      "price": "130",
+      "id": 13
+    },
+    {
+      "brand": "Nvidia",
+      "name": "RTX 2060 Super",
+      "price": "285",
+      "id": 14
+    }
+  ]
+}

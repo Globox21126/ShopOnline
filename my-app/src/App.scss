@@ -1,9 +1,66 @@
+/* root classes */
+
+.wrapper {
+  padding: 0 45px;
+}
+
+/* colors */
+
+$color-dark-blue: #2a3d66;
+$color-light-blue: #5d54a4;
+$color-purple: #9d65c9;
+$color-light-purple: #d789d7;
+
+/* Fonts */
+
+
+
 /* Header styling */
 
 .header {
+
+  background-color: $color-dark-blue;
+  color: $color-light-purple;
   display: flex;
   justify-content: space-between;
-  color: red;
+  align-items: center;
+  height: 75px;
+
+  div:first-child {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+
+      text-decoration: none;
+
+      h3 {
+        font-size: 2rem;
+        color: $color-light-purple;
+      }
+    }
+
+  }
+
+  div:nth-child(2) {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+
+    a {
+      text-decoration: none;
+
+      p {
+        color: $color-light-purple;
+      }
+
+    }
+
+  }
+
 }
 
 .header_right {
@@ -14,3 +71,73 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Products styles below */
+
+.products {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  span {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      height: 75%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .plus_product {
+        color: $color-light-blue;
+        margin: 0 auto;
+
+        &:hover {
+          color: $color-dark-blue;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+/* Shopping cart */
+
+
+.cart_items {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+
+    .bought_products {
+      flex-direction: column;
+      margin: 10px 0;
+  
+      span {
+        padding: 0 10px;
+      }
+
+  }
+
+  .remove_product {
+    cursor: pointer;
+    margin: 0 6px;
+  }
+
+  .total_price {
+    position: relative;
+  }
+  
+}
+
