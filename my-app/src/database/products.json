@@ -4,72 +4,72 @@
       "id": 1,
       "name": "GTX 1060",
       "brand": "Nvidia",
-      "price": "100$"
+      "price": "100"
     },
     {
       "id": 2,
       "name": "GTX 1060Ti",
       "brand": "Nvidia",
-      "price": "130$"
+      "price": "130"
     },
     {
       "id": 3,
       "name": "GTX 1070",
       "brand": "Nvidia",
-      "price": "160$"
+      "price": "160"
     },
     {
       "id": 4,
       "name": "GTX 1070Ti",
       "brand": "Nvidia",
-      "price": "200$"
+      "price": "200"
     },
     {
       "id": 5,
       "name": "GTX 1080",
       "brand": "Nvidia",
-      "price": "300$"
+      "price": "300"
     },
     {
       "id": 6,
       "name": "GTX 1080Ti",
       "brand": "Nvidia",
-      "price": "370$"
+      "price": "370"
     },
     {
       "name": "RTX 2060",
       "brand": "Nvidia",
-      "price": "250$",
+      "price": "250",
       "id": 7
     },
     {
       "name": "RTX 2060 Super",
       "brand": "Nvidia",
-      "price": "285$",
+      "price": "285",
       "id": 8
     },
     {
       "name": "RTX 2070 ",
       "brand": "Nvidia",
-      "price": "300$",
+      "price": "300",
       "id": 9
     },
     {
       "name": "Ryzen",
       "brand": "AMD",
-      "price": "400$",
+      "price": "400",
       "id": 10
     },
     {
       "name": "RTX 3080",
       "brand": "Nvidia",
-      "price": "700$",
+      "price": "700",
       "id": 11
     },
     {
       "name": "Radeon RX 5700 XT GAMING",
       "brand": "MSI",
-      "price": "450$",
+      "price": "450",
       "id": 12
     }
   ],
@@ -77,74 +77,20 @@
     {
       "brand": "Nvidia",
       "name": "GTX 1060",
-      "price": "100$",
-      "id": 1
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1060",
-      "price": "100$",
-      "id": 2
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1060Ti",
-      "price": "130$",
-      "id": 3
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1060Ti",
-      "price": "130$",
-      "id": 4
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070",
-      "price": "160$",
-      "id": 5
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070",
-      "price": "160$",
-      "id": 6
-    },
-    {
-      "brand": "AMD",
-      "name": "Ryzen",
-      "price": "400$",
-      "id": 7
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1080",
-      "price": "300$",
-      "id": 8
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
-      "id": 9
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
-      "id": 10
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070",
-      "price": "160$",
-      "id": 11
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1080Ti",
-      "price": "370$",
+      "price": "100",
       "id": 12
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1060Ti",
+      "price": "130",
+      "id": 13
+    },
+    {
+      "brand": "Nvidia",
+      "name": "RTX 2060 Super",
+      "price": "285",
+      "id": 14
     }
   ]
 }

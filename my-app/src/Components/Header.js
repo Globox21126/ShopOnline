@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 function Header() {
 
-    const [data, setData] = useState(false);
+    const [data, setData] = useState([]);
 
     const howManyProducts = () => {
         fetch("http://localhost:3000/bought")
@@ -13,16 +13,18 @@ function Header() {
         .then(products => setData(products))
     }
 
-    const dataChange = () => {
-        setInterval(howManyProducts(), 1000 )
-        console.log("e")
-    }
+    // const boughtInterval = setInterval(() => {
+    //     howManyProducts();
+    //     clearInterval(boughtInterval);
+    // }, 1000);
 
     useEffect(() => {
-        
+        howManyProducts()
     }, [])
 
-
+    if(!data) {
+        return <h1 className="wrapper">Loading...</h1>
+    }
 
     return (
         <section className="header wrapper">

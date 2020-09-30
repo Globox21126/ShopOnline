@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 
+
 function AddProduct({addOneProduct}) {
 
     const [name, setName] = useState("");
@@ -32,12 +33,12 @@ function AddProduct({addOneProduct}) {
 
     return (
         <div className="wrapper">
-            <h2>Dodaj produkt poniżej</h2>
+            <h2>Add new product below!</h2>
             <form onSubmit={handleSubmit}>
-                <input onChange={changeBrand} value={brand} name="brand" placeholder="Producent"/>
-                <input onChange={changeName} value={name} name="name" placeholder="Nazwa"/>
-                <input onChange={changePrice} value={price} name="price" placeholder="Cena + waluta"/>
-                <button>Dodaj</button>
+                <input onChange={changeBrand} value={brand} name="brand" placeholder="Brand"/>
+                <input onChange={changeName} value={name} name="name" placeholder="Product name"/>
+                <input type="number" onChange={changePrice} value={price} name="price" placeholder="Price in $"/>
+                <button>Add!</button>
             </form>
         </div>
     )

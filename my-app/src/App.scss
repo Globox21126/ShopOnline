@@ -112,6 +112,32 @@ $color-light-purple: #d789d7;
 
 /* Shopping cart */
 
-.bought_products {
+
+.cart_items {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+
+    .bought_products {
+      flex-direction: column;
+      margin: 10px 0;
+  
+      span {
+        padding: 0 10px;
+      }
+
+  }
+
+  .remove_product {
+    cursor: pointer;
+    margin: 0 6px;
+  }
+
+  .total_price {
+    position: relative;
+  }
   
 }
+

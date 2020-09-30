@@ -25,7 +25,6 @@ function Products() {
         }).then(fetchAllProducts);
     }
 
-
     const buyProduct = (id, itemBrand, itemName, itemPrice) => {
         fetch(`http://localhost:3000/products/${id}`)
         .then(resp => resp.json())
