@@ -62,7 +62,7 @@ function Products() {
                                 {el.name}
                             </li>
                             <li>
-                                {el.price}
+                                {el.price}$
                             </li>
                             <i onClick={() => buyProduct(el.id, el.brand, el.name, el.price)}>Add to cart <FontAwesomeIcon className="plus_product" size="lg" icon={faPlusSquare}/></i>
                         </ul>

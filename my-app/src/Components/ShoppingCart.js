@@ -1,17 +1,16 @@
 import React, {useState, useEffect} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
+import {Link} from "react-router-dom";
 
 function ShoppingCart() {
 
     const [data, setData] = useState(false);
 
     const fetchAllBought = () => {
-
         fetch("http://localhost:3000/bought")
         .then(resp => resp.json())
         .then(bought => setData(bought))
-
     }
 
     const removeProduct = (id) => {
@@ -20,16 +19,19 @@ function ShoppingCart() {
         }).then(fetchAllBought);
     }
 
+
     useEffect(() => {
         fetchAllBought();
     }, []);
 
     const totalPrice = () => {
-        let price = data.map((el) => parseInt(el.price)).reduce((a, b) => a + b);
-        return price;
+        if(data.length === 0) {
+            return <h1>No items in your cart!</h1>;
+        } else {
+            let price = data.map((el) => parseInt(el.price)).reduce((a, b) => a + b);
+            return price + "$";
+        }
     }
-
-
 
     if(!data) {
         return <h1 className="wrapper">Loading...</h1>
@@ -48,8 +50,11 @@ function ShoppingCart() {
                     </div>
                  )}
                  </div>
-                <span className="total_price">Total price: {totalPrice()}$</span>
+                <span className="total_price">Total price: {totalPrice()}</span>
             </div>
+            <Link to="/orderitems">
+                <p className="wrapper">Order your items!</p>  
+            </Link>
         </section>
     )
 }
