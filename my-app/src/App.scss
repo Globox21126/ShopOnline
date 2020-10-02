@@ -94,9 +94,16 @@ $color-light-purple: #d789d7;
       flex-direction: column;
       justify-content: space-between;
 
-      .plus_product {
-        color: $color-light-blue;
-        margin: 0 auto;
+
+      i {
+          display: flex;
+          flex-direction: column;
+        .plus_product {
+          color: $color-light-blue;
+          margin: 0 auto;
+          cursor: pointer;
+      }
+      
 
         &:hover {
           color: $color-dark-blue;
@@ -141,3 +148,13 @@ $color-light-purple: #d789d7;
   
 }
 
+/* Order form */
+
+.order_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
