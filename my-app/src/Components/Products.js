@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react'
-import AddProduct from "./AddProduct";
+import AddProduct from "./AddProduct"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusSquare } from '@fortawesome/free-solid-svg-icons'
+
 
 function Products() {
 
@@ -50,22 +51,22 @@ function Products() {
     }
 
     return (
-        <section>
-            <div className="wrapper products">
+        <section className="wrapper products_box">
+            <div className="products">
                 {data.map((el) => 
                     <span key={el.id}>
-                        <ul style={{listStyle:"none"}}>
-                            <li>
+                        <div style={{listStyle:"none"}}>
+                            <div>
                                 {el.brand}
-                            </li>
-                            <li>
+                            </div>
+                            <div>
                                 {el.name}
-                            </li>
-                            <li>
+                            </div>
+                            <div>
                                 {el.price}$
-                            </li>
+                            </div>
                             <i onClick={() => buyProduct(el.id, el.brand, el.name, el.price)}>Add to cart <FontAwesomeIcon className="plus_product" size="lg" icon={faPlusSquare}/></i>
-                        </ul>
+                        </div>
                     </span>
                  )}
             </div>

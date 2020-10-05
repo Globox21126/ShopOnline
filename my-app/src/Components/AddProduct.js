@@ -32,15 +32,17 @@ function AddProduct({addOneProduct}) {
 
 
     return (
-        <div className="wrapper">
-            <h2>Add new product below!</h2>
-            <form onSubmit={handleSubmit}>
-                <input onChange={changeBrand} value={brand} name="brand" placeholder="Brand"/>
-                <input onChange={changeName} value={name} name="name" placeholder="Product name"/>
-                <input type="number" onChange={changePrice} value={price} name="price" placeholder="Price in $"/>
-                <button>Add!</button>
-            </form>
-        </div>
+        <section className="wrapper add_product">
+            <div>
+                <h2>Add new product below!</h2>
+                <form onSubmit={handleSubmit}>
+                    <input onChange={changeBrand} value={brand} name="brand" placeholder="Brand"/>
+                    <input onChange={changeName} value={name} name="name" placeholder="Product name"/>
+                    <input type="number" onChange={changePrice} value={price} name="price" placeholder="Price in $"/>
+                    <button>Add!</button>
+                </form>
+            </div>
+        </section>
     )
 }
 

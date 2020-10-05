@@ -45,9 +45,15 @@ function OrderItems() {
         }).then(fetchAllBought);
     }
 
-    const handleSubmitOrder = (e) => {
+    // const clearCart = () => {
+    //     fetch("http://localhost:3000/bought/", {
+    //         method: "DELETE"
+    //     }).then(fetchAllBought);
+    // }
 
-        e.preventDefault();
+
+
+    function handleSubmitOrder() {
 
         const newOrder = {
             name: name,
@@ -57,9 +63,9 @@ function OrderItems() {
             bought: {
                 data
             }
-        }
+        };
         addOrder(newOrder);
-        // tu dodam funkcję, która czyści bought w API
+        //czyszczenie bought
     }
 
     return (
