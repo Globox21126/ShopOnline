@@ -46,6 +46,8 @@ function Products() {
         fetchAllProducts();
     }, []);
 
+
+
     if(!data) {
         return <h1 className="wrapper">Loading...</h1>
     }

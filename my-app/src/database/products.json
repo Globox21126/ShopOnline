@@ -73,7 +73,32 @@
       "id": 12
     }
   ],
-  "bought": [],
+  "bought": [
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1060",
+      "price": "100",
+      "id": 1
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1060Ti",
+      "price": "130",
+      "id": 2
+    },
+    {
+      "brand": "Nvidia",
+      "name": "RTX 2060 Super",
+      "price": "285",
+      "id": 3
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1070Ti",
+      "price": "200",
+      "id": 4
+    }
+  ],
   "orders": [
     {
       "name": "John",
