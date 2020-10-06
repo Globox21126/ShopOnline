@@ -22,6 +22,7 @@ function Header() {
         howManyProducts()
     }, [])
 
+
     if(!data) {
         return <h1 className="wrapper">Loading...</h1>
     }
@@ -41,7 +42,7 @@ function Header() {
                     <p>About us</p>
                 </Link>
                 <Link to="/shoppingcart">
-                    <p><FontAwesomeIcon size="lg" icon={faShoppingCart}/> ({data.length})</p>
+                    <p><FontAwesomeIcon size="lg" icon={faShoppingCart}/></p>
                 </Link>
             </div>
         </section>

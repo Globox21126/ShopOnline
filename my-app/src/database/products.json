@@ -78,148 +78,49 @@
       "brand": "Nvidia",
       "name": "GTX 1060",
       "price": "100",
-      "id": 5
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1060",
-      "price": "100",
-      "id": 6
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1060",
-      "price": "100",
-      "id": 7
+      "id": 1
     },
     {
       "brand": "Nvidia",
       "name": "GTX 1060Ti",
       "price": "130",
-      "id": 8
+      "id": 2
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1060Ti",
-      "price": "130",
-      "id": 9
+      "name": "RTX 2060 Super",
+      "price": "285",
+      "id": 3
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1060Ti",
-      "price": "130",
-      "id": 10
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070",
-      "price": "160",
-      "id": 11
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070",
-      "price": "160",
-      "id": 12
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070",
-      "price": "160",
-      "id": 13
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070",
-      "price": "160",
-      "id": 14
+      "name": "GTX 1070Ti",
+      "price": "200",
+      "id": 4
     }
   ],
   "orders": [
     {
-      "name": "Aleksander Jaszczyński",
-      "email": "aleksander.jaszczynski@onet.pl",
-      "adress": "ssss",
-      "code": "01-651",
-      "id": 1
-    },
-    {
-      "name": "s",
-      "email": "s",
-      "adress": "s",
-      "code": "s",
-      "id": 2
-    },
-    {
-      "name": "s",
-      "email": "s",
-      "adress": "s",
-      "code": "s",
+      "name": "John",
+      "email": "Doe",
+      "adress": "London",
+      "code": "445-50",
       "bought": {
         "data": [
           {
-            "brand": "Nvidia",
-            "name": "GTX 1060",
-            "price": "100",
-            "id": 5
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1060",
-            "price": "100",
-            "id": 6
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1060",
-            "price": "100",
-            "id": 7
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1060Ti",
-            "price": "130",
-            "id": 8
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1060Ti",
-            "price": "130",
-            "id": 9
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1060Ti",
-            "price": "130",
-            "id": 10
+            "brand": "AMD",
+            "name": "Ryzen",
+            "price": "400",
+            "id": 2
           },
           {
             "brand": "Nvidia",
             "name": "GTX 1070",
             "price": "160",
-            "id": 11
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1070",
-            "price": "160",
-            "id": 12
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1070",
-            "price": "160",
-            "id": 13
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1070",
-            "price": "160",
-            "id": 14
+            "id": 4
           }
         ]
-      },
-      "id": 3
+      }
     }
   ]
 }

@@ -19,7 +19,6 @@ function ShoppingCart() {
         }).then(fetchAllBought);
     }
 
-
     useEffect(() => {
         fetchAllBought();
     }, []);

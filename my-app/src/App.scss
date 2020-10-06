@@ -1,19 +1,31 @@
 /* root classes */
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Raleway:wght@300;500&display=swap');
+
+html, body{
+  padding: 0;
+  margin: 0;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  height: 100%;
+}
+
+
 .wrapper {
   padding: 0 45px;
 }
 
 /* colors */
 
-$color-dark-blue: #2a3d66;
-$color-light-blue: #5d54a4;
-$color-purple: #9d65c9;
-$color-light-purple: #d789d7;
+$color-dark-blue: #303841;
+$color-light-blue: #3a4750;
+$color-purple: #eeeeee;
+$color-light-purple: #d72323;
 
 /* Fonts */
 
-
+$font-lobster: 'Lobster Two', cursive;
+$font-primary: 'Raleway', sans-serif;
 
 /* Header styling */
 
@@ -25,10 +37,12 @@ $color-light-purple: #d789d7;
   justify-content: space-between;
   align-items: center;
   height: 75px;
+  top: 0;
 
   div:first-child {
     display: flex;
     justify-content: space-between;
+    font-family: $font-lobster;
 
     a {
 
@@ -49,6 +63,7 @@ $color-light-purple: #d789d7;
     align-items: center;
     justify-content: space-between;
     font-size: 1.1rem;
+    font-family: $font-primary;
 
     a {
       text-decoration: none;
@@ -74,22 +89,43 @@ $color-light-purple: #d789d7;
 
 /* Products styles below */
 
-.products {
-
+.products_box {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.products {
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  max-width: 1100px;
 
   span {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin: 1px;
+    margin-top: 15px;
 
-    ul {
-      height: 75%;
+    &:hover {
+      background-color: #FFDFF9;
+      transition: 1s;
+      box-shadow: 6px 6px 14px -3px rgba(0,0,0,0.5);
+      cursor: pointer;
+    }
+
+    div {
+      opacity: 1;
+      height: 45%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -116,6 +152,70 @@ $color-light-purple: #d789d7;
   }
 
 }
+
+
+/* Add product form */
+
+.add_product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+
+  .add_product_form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-family: $font-primary;
+      font-weight: bold;
+      font-size: 2rem;
+      color: $color-light-purple;
+      margin-bottom: 20px;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      label {
+        font-family: $font-primary;
+        color: $color-light-blue;
+        font-size: 1.25rem;
+        margin: 7px;
+      }
+
+      input {
+        width: 220px;
+        height: 25px;
+        border: 1px solid gray;
+        border-radius: 3px;
+
+        &:focus {
+          box-shadow: 6px 6px 14px -3px rgba(0,0,0,0.5);
+        }
+
+      }
+
+      button {
+        width: 80px;
+        height: 25px;
+        border-radius: 3px;
+        border: none;
+        margin: 5px 2px;
+        cursor: pointer;
+        
+      }
+
+    }
+
+  }
+
+}
+
 
 /* Shopping cart */
 
@@ -151,10 +251,55 @@ $color-light-purple: #d789d7;
 /* Order form */
 
 .order_form {
+display: block;
+
+
+  
+}
+
+/* Footer */
+
+.footer {
+
+  height: 80px;
+  background-color: $color-dark-blue;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
-  
+  .footer_left {
+    color: red;
+  }
+  .footer_right {
+    color: $color-light-purple;
+    font-family: $font-primary;
+    font-weight: bold;
+    width: 200px;
+    height: 55px;
+    background-color: $color-purple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    
+    a {
+      padding: 7px;
+
+      &:first-child {
+        color: #3B5998;
+        text-decoration: none;  
+      }
+
+      &:last-child {
+        color: #C13584;
+        text-decoration: none;
+      }
+
+      &:visited {
+        text-decoration: none;
+      }
+
+    }
+
+  }
 }
