@@ -67,9 +67,9 @@
       "id": 11
     },
     {
-      "name": "Radeon RX 5700 XT GAMING",
-      "brand": "MSI",
-      "price": "450",
+      "name": "RTX 3090",
+      "brand": "Nvidia",
+      "price": "1200",
       "id": 12
     }
   ],
@@ -97,6 +97,24 @@
       "name": "GTX 1070Ti",
       "price": "200",
       "id": 4
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1060",
+      "price": "100",
+      "id": 5
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1070",
+      "price": "160",
+      "id": 6
+    },
+    {
+      "brand": "Nvidia",
+      "name": "GTX 1060Ti",
+      "price": "130",
+      "id": 7
     }
   ],
   "orders": [

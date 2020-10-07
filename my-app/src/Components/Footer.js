@@ -6,7 +6,7 @@ function Footer() {
     return (
         <section className="footer wrapper">
             <div className="footer_left">
-                <h3>Online Shop</h3>
+                <h3>ShopOnline®</h3>
             </div>
             <div className="footer_right">
                 Find us: 
