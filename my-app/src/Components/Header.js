@@ -30,7 +30,7 @@ function Header() {
     return (
         <section className="header wrapper">
             <div>
-                <Link to="/">
+                <Link to="/aboutus">
                     <h3>ShopOnline</h3>
                 </Link>
             </div>

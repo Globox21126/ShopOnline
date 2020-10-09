@@ -19,12 +19,6 @@
       "price": "160"
     },
     {
-      "id": 4,
-      "name": "GTX 1070Ti",
-      "brand": "Nvidia",
-      "price": "200"
-    },
-    {
       "id": 5,
       "name": "GTX 1080",
       "brand": "Nvidia",
@@ -67,36 +61,36 @@
       "id": 11
     },
     {
-      "name": "Radeon RX 5700 XT GAMING",
-      "brand": "MSI",
-      "price": "450",
+      "name": "RTX3090",
+      "brand": "Nvidia",
+      "price": "1200",
       "id": 12
+    },
+    {
+      "name": "dsasda",
+      "brand": "sdasd",
+      "price": "3233",
+      "id": 13
     }
   ],
   "bought": [
     {
       "brand": "Nvidia",
-      "name": "GTX 1060",
-      "price": "100",
+      "name": "GTX 1060Ti",
+      "price": "130",
       "id": 1
     },
     {
       "brand": "Nvidia",
-      "name": "GTX 1060Ti",
-      "price": "130",
+      "name": "RTX 2060",
+      "price": "250",
       "id": 2
     },
     {
-      "brand": "Nvidia",
-      "name": "RTX 2060 Super",
-      "price": "285",
-      "id": 3
-    },
-    {
-      "brand": "Nvidia",
-      "name": "GTX 1070Ti",
-      "price": "200",
-      "id": 4
+      "brand": "sdasd",
+      "name": "dsasda",
+      "price": "3233",
+      "id": 5
     }
   ],
   "orders": [

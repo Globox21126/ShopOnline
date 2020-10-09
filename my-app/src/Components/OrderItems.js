@@ -45,15 +45,11 @@ function OrderItems() {
         }).then(fetchAllBought);
     }
 
-    // const clearCart = () => {
-    //     fetch("http://localhost:3000/bought/", {
-    //         method: "DELETE"
-    //     }).then(fetchAllBought);
-    // }
+    console.log(data)
 
+    function handleSubmitOrder(e) {
 
-
-    function handleSubmitOrder() {
+        e.preventDefault();
 
         const newOrder = {
             name: name,
@@ -65,12 +61,11 @@ function OrderItems() {
             }
         };
         addOrder(newOrder);
-        //czyszczenie bought
     }
 
     return (
-        <section>
-            <form onSubmit={handleSubmitOrder} className="order_form">
+        <section className="order">
+            <form onSubmit={handleSubmitOrder} className="wrapper order_form">
                 <input onChange={changeName} value={name} placeholder="Name and surname"/>
                 <input onChange={changeEmail} value={email} placeholder="email"/> 
                 <input onChange={changeAdress} value={adress} placeholder="shipping adress"/>
@@ -82,3 +77,4 @@ function OrderItems() {
 }
 
 export default OrderItems
+  

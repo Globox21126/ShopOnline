@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import AddProduct from "./AddProduct"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusSquare } from '@fortawesome/free-solid-svg-icons'
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 
 
 function Products() {
@@ -23,6 +24,12 @@ function Products() {
             headers: {
                 "Content-Type" : "application/json"
             }
+        }).then(fetchAllProducts);
+    }
+
+    const removeProduct = (id) => {
+        fetch(`http://localhost:3000/products/${id}`, {
+            method: "DELETE"
         }).then(fetchAllProducts);
     }
 
@@ -55,9 +62,10 @@ function Products() {
     return (
         <section className="wrapper products_box">
             <div className="products">
-                {data.map((el) => 
+                {data.map((el) =>
                     <span key={el.id}>
-                        <div style={{listStyle:"none"}}>
+                        <div onClick={() => removeProduct(el.id)} className="remove"><FontAwesomeIcon icon={faTimesCircle}/></div>
+                        <div className="product_info" style={{listStyle:"none"}}>
                             <div>
                                 {el.brand}
                             </div>
@@ -65,9 +73,9 @@ function Products() {
                                 {el.name}
                             </div>
                             <div>
-                                {el.price}$
+                                Price: {el.price}$
                             </div>
-                            <i onClick={() => buyProduct(el.id, el.brand, el.name, el.price)}>Add to cart <FontAwesomeIcon className="plus_product" size="lg" icon={faPlusSquare}/></i>
+                            <i onClick={() => buyProduct(el.id, el.brand, el.name, el.price)}>Add to cart:<FontAwesomeIcon className="plus_product" size="2x" icon={faPlusSquare}/></i>
                         </div>
                     </span>
                  )}

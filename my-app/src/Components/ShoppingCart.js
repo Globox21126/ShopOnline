@@ -45,15 +45,15 @@ function ShoppingCart() {
                     <div className="bought_products" key={el.id}>
                         <span className="brand_name">{el.brand}, {el.name}</span>
                         <span className="price">Price: {el.price}$</span>
-                        <i>Remove: <FontAwesomeIcon  onClick={() => removeProduct(el.id)} className="remove_product" icon={faTrashAlt}/></i>
+                        <i>Remove<FontAwesomeIcon  onClick={() => removeProduct(el.id)} className="remove_product" icon={faTrashAlt}/></i>
                     </div>
                  )}
                  </div>
                 <span className="total_price">Total price: {totalPrice()}</span>
+                <Link className="to_order" to="/orderitems">
+                    <p className="wrapper">Order your items!</p>  
+                </Link>
             </div>
-            <Link to="/orderitems">
-                <p className="wrapper">Order your items!</p>  
-            </Link>
         </section>
     )
 }
