@@ -10,8 +10,8 @@ function Footer() {
             </div>
             <div className="footer_right">
                 Find us: 
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><FontAwesomeIcon size="2x" icon={faFacebookSquare}/></a>
-                <a href="https://www.youtube.com/watch?v=uE-1RPDqJAY" target="_blank"><FontAwesomeIcon size="2x" icon={faInstagram}/></a>
+                <a rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><FontAwesomeIcon size="2x" icon={faFacebookSquare}/></a>
+                <a rel="noopener noreferrer" href="https://www.youtube.com/watch?v=uE-1RPDqJAY" target="_blank"><FontAwesomeIcon size="2x" icon={faInstagram}/></a>
             </div>
         </section>
     )

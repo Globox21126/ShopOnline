@@ -28,7 +28,6 @@ function AddProduct({addOneProduct}) {
             price: price
         }
         addOneProduct(addItem);
-        e.target.reset();
     }
 
 
