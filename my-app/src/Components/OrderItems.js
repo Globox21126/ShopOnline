@@ -31,6 +31,7 @@ function OrderItems() {
         .then(order => setData(order))
     }
 
+
     useEffect(() => {
         fetchAllBought();
     }, []);
@@ -45,7 +46,7 @@ function OrderItems() {
         }).then(fetchAllBought);
     }
 
-    console.log(data)
+    console.log()
 
     function handleSubmitOrder(e) {
 
@@ -59,7 +60,8 @@ function OrderItems() {
             bought: {
                 data
             }
-        };
+        }
+
         addOrder(newOrder);
     }
 
