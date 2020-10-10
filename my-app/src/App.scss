@@ -360,18 +360,59 @@ $font-primary: 'Raleway', sans-serif;
   }
 
 
+
+
+
 }
 
 .order_form {
 display: flex;
 flex-direction: column;
+align-items: center;
 
-h2 {
+h1 {
   font-family: $font-primary;
   font-weight: bold;
   font-size: 2rem;
   color: $color-light-purple;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 220px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin-top: 20px;
+
+  &:focus {
+    box-shadow: 6px 6px 14px -3px rgba(0,0,0,0.5);
+  }
+}
+
+
+button {
+  width: 80px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+  margin: 15px 2px;
+  cursor: pointer;
+  font-family: $font-primary;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+
+  &:active {
+    border: none;
+    outline: none;
+    background-color: $color-light-blue;
+    transition: 0.5s;
+    transform: scale(0.9);
+  }
+
 }
 
 input {
@@ -383,6 +424,7 @@ input {
   &:focus {
     box-shadow: 6px 6px 14px -3px rgba(0,0,0,0.5);
   }
+
 }
   
 }

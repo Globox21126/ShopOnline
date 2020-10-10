@@ -31,6 +31,7 @@ function OrderItems() {
         .then(order => setData(order))
     }
 
+
     useEffect(() => {
         fetchAllBought();
     }, []);
@@ -45,7 +46,7 @@ function OrderItems() {
         }).then(fetchAllBought);
     }
 
-    console.log(data)
+    console.log()
 
     function handleSubmitOrder(e) {
 
@@ -59,13 +60,15 @@ function OrderItems() {
             bought: {
                 data
             }
-        };
+        }
+
         addOrder(newOrder);
     }
 
     return (
         <section className="order">
             <form onSubmit={handleSubmitOrder} className="wrapper order_form">
+                <h1>Submit your order!</h1>
                 <input onChange={changeName} value={name} placeholder="Name and surname"/>
                 <input onChange={changeEmail} value={email} placeholder="email"/> 
                 <input onChange={changeAdress} value={adress} placeholder="shipping adress"/>
