@@ -68,6 +68,7 @@ function OrderItems() {
     return (
         <section className="order">
             <form onSubmit={handleSubmitOrder} className="wrapper order_form">
+                <h1>Submit your order!</h1>
                 <input onChange={changeName} value={name} placeholder="Name and surname"/>
                 <input onChange={changeEmail} value={email} placeholder="email"/> 
                 <input onChange={changeAdress} value={adress} placeholder="shipping adress"/>
