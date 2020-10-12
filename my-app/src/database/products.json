@@ -51,15 +51,15 @@
   ],
   "bought": [
     {
-      "brand": "Nvidia",
-      "name": "RTX3090",
-      "price": "1200",
+      "brand": "AMD",
+      "name": "Ryzen",
+      "price": "400",
       "id": 1
     },
     {
       "brand": "Nvidia",
-      "name": "RTX 2060 Super",
-      "price": "285",
+      "name": "RTX3090",
+      "price": "1200",
       "id": 2
     }
   ],
@@ -152,35 +152,6 @@
       "id": 3
     },
     {
-      "name": "Aleksander Jaszczyński",
-      "email": "aleksander.jaszczynski@onet.pl",
-      "adress": "sasad",
-      "code": "01-651",
-      "bought": {
-        "data": [
-          {
-            "brand": "Nvidia",
-            "name": "RTX 2060",
-            "price": "250",
-            "id": 1
-          },
-          {
-            "brand": "Nvidia",
-            "name": "RTX 2060 Super",
-            "price": "285",
-            "id": 2
-          },
-          {
-            "brand": "Nvidia",
-            "name": "GTX 1060Ti",
-            "price": "300",
-            "id": 3
-          }
-        ]
-      },
-      "id": 4
-    },
-    {
       "name": "Adam Małysz",
       "email": "skoczek@gmail.com",
       "adress": "W góry",
@@ -202,6 +173,29 @@
         ]
       },
       "id": 5
+    },
+    {
+      "name": "Jan Kowalski",
+      "email": "jan@onet.pl",
+      "adress": "ul. uliczna 54 Radom",
+      "code": "01-340",
+      "bought": {
+        "data": [
+          {
+            "brand": "AMD",
+            "name": "Ryzen",
+            "price": "400",
+            "id": 1
+          },
+          {
+            "brand": "Nvidia",
+            "name": "RTX3090",
+            "price": "1200",
+            "id": 2
+          }
+        ]
+      },
+      "id": 6
     }
   ]
 }
