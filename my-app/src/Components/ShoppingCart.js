@@ -32,6 +32,8 @@ function ShoppingCart() {
         }
     }
 
+    console.log(data)
+
     if(!data) {
         return <h1 className="wrapper">Loading...</h1>
     }
